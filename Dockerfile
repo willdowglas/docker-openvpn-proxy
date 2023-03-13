@@ -1,9 +1,9 @@
-FROM alpine:3.14.2
+FROM alpine:3.17.2
 
 RUN apk --no-cache add \
     gettext \
     nginx \
-    openvpn \ 
+    openvpn \
     privoxy \
     runit
 
